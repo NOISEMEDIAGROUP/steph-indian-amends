@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.dirname(fileURLToPath(import.meta.url));
 const projectRoot = path.resolve(root, "..");
 const out = path.join(projectRoot, "pages-dist");
-const base = "/steph-indian/";
+const base = "/steph-indian-amends/";
 
 await mkdir(out, { recursive: true });
 await cp(path.join(projectRoot, "dist", "client"), out, { recursive: true });
