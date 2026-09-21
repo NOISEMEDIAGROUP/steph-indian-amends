@@ -21,7 +21,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://noisemediagroup.github.io/steph-indian/"),
+  metadataBase: new URL("https://noisemediagroup.github.io/steph-indian-amends/"),
   title: "Results, then commentary. | Noise Client Reporting",
   description:
     "A client performance report that walks overall results, each channel, each campaign, winning creatives and next steps — in that order.",
