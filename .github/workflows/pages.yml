@@ -26,7 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          NEXT_PUBLIC_REPORT_BASE_PATH: /steph-indian
+          NEXT_PUBLIC_REPORT_BASE_PATH: /steph-indian-amends
       - run: node scripts/export-pages.mjs
       - run: node --test tests/pages-export.test.mjs
       - uses: actions/upload-pages-artifact@v3
