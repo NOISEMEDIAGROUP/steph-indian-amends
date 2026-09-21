@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { access, readFile } from "node:fs/promises";
 import test from "node:test";
 
-const base = "/steph-indian/";
+const base = "/steph-indian-amends/";
 const output = new URL("../pages-dist/", import.meta.url);
 
 test("GitHub Pages can load the script that attaches the report's click handlers", async () => {
